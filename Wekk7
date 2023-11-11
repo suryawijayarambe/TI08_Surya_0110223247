@@ -1,0 +1,28 @@
+<style>
+        .kotak{
+            margin: 5px;
+        }
+        .container{
+           display: flex;
+        }
+        .green{
+            background-color: green;
+            width: 710px;
+            height: 100px;
+        }
+        .yellow{
+            background-color: yellow;
+            width: 100px;
+            height: 150px;
+        }
+        .orange{
+            background-color: orange;
+            width: 600px;
+            height: 150px;
+        }
+        .aqua{
+            background-color: aqua;
+            width: 600px;
+            height: 150px;
+        }
+    </style>
