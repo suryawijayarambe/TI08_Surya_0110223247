@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const phi = 3.14
+        console.log("nilai PHI adalah" +phi)
+
+        let jari = 14;
+        console.log("nilai jari jari adalah" +jari)
+
+        let luas = phi* (jari*jari)
+        console.log("nilai luas lingkaran adalah" + luas)
+
+        let keliling= 2*phi*jari
+        console.log("nilai keliling lingkaran adalah" +keliling)
+
+
+    </script>
+</body>
+</html>
