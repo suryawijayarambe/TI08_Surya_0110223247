@@ -1,0 +1,41 @@
+//ini variabel dengan let
+let nama= "surya wijaya"
+console.log(nama)
+
+// ini variabel dengan const
+const fisrname = "surya wijaya"
+const lastname = "surya"
+console.log(fisrname+" "+lastname)
+
+// ini tipedata string
+const gender = "lk"
+console.log(typeof gender)
+
+// initipedata int
+constage = 18
+console.log(age)
+console.log(typeof age)
+
+// tipedata boolean
+const isMarried = flase;
+console.log(isMarried)
+console.log(typeof isMarried)
+
+// operato aritmatika
+const x = 9
+const y = 10
+
+// pertambahan
+const z=x+y
+
+// funcotion
+function salam(){
+    alert("assalamualaikum")
+}
+
+salam()
+
+function isTrue(){
+    let city = "depok"
+}
+console.log(city)
