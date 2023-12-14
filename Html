@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="number" name="money" id="money">
+    <select name="kurs" id="kurs">
+        <option value="usd">USD |Rp.15000</option>
+        <option value="eur">EUR |Rp.16000</option>
+        <option value="sgd">SGD |Rp.11600</option>
+         </select>
+    <button id="hitung">convert</button>
+
+    <p id="result">hasil</p>
+    <script>
+        const money = document.querySelector("#money")
+        const kurs = document.querySelector("#kurs")
+        const result = document.querySelector("#result")
+        const btn = document.querySelector("#hitung")
+
+        btn.addEventListener("click", function(){
+            if(kurs.value == "usd"){
+                result.innerHTML = "hasil:Rp."+ money.value * 15000
+            }
+            else if(kurs.value == "eur"){
+                result.innerHTML = "hasil:Rp."+ money.value * 16000
+            }
+            else{ 
+                result.innerHTML = "hasil:Rp."+ money.value * 11600
+         }  
+        })
+    </script>
+
+
+
+</body>
+</html>
