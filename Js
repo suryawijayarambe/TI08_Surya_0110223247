@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function jumlahkan(){
+            let bill1 = document.getElementById("bill1").value;
+            let bill2 = document.getElementById("bill2").value;
+            
+            let billhasil = parseInt(bill1) + parseInt(bill2)
+
+            document.getElementById("hasil").innerHTML=billhasil;
+        }
+
+    </script>
+</head>
+<body>
+    <form>
+     <h1>kalkulator pemjumlahan</h1>
+     <fieldset>        
+     <label>bilangan 1</label>
+     <br>
+     <input type="number" name="bill1" id="bill1">
+     <br>
+     <label>bilangan 2></label>
+     <br>
+     <input type="number" name="bill2" id="bill2">
+     <br><br>
+     <input type="button" value="hitung"onclick="jumlahkan();">
+     <br><br>
+     <span id="hasil"></span>
+     </fieldset>
+        
+
+
+    </form>
+        
+</body>
+</html>
