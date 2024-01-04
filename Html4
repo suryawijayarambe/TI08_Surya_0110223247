@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        function jumlahkan() {
+            let bil1 = document.getElementById("bil1").value;
+            let bil2 = document.getElementById("bil2").value;
+
+            let bilhasil = parseInt(bil1) + parseInt(bil2)
+
+            document.getElementById("hasil").innerHTML = bilhasil;
+        }
+
+    </script>
+</head>
+<body>
+    <form action="">
+        <h1>Kalkulator Penjumlahan</h1>
+        <fieldset>
+            <label for="">Bilangan 1</label>
+            <br>
+            <input type="number" name="bil1" id="bil1">
+            <br><br>
+            <label for="">Bilangan 2</label>
+            <br> 
+            <input type="number" name="bil2" id="bil2">
+            <br><br>
+            <input type="button" value="hitung" onclick="jumlahkan()">
+            <br><br>
+            <span id="hasil"></span>
+        </fieldset>
+</form>
+</body>
+</html>
